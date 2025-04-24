@@ -70,3 +70,7 @@ This project demonstrates how machine learning and historical wildfire data can 
 - **ML Tools**: RandomizedSearchCV, Classification Metrics
 - **App Framework**: Streamlit
 - **Data Source**: [FPA-FOD Dataset (Kaggle)](https://www.kaggle.com/datasets/)
+
+
+
+> “An ounce of prevention is worth a pound of cure — and a gigabyte of data.”
