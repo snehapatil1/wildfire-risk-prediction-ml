@@ -72,5 +72,12 @@ This project demonstrates how machine learning and historical wildfire data can 
 - **Data Source**: [FPA-FOD Dataset (Kaggle)](https://www.kaggle.com/datasets/)
 
 
+## Important Links
+- Kaggle Reference: https://www.kaggle.com/datasets/rtatman/188-million-us-wildfires/data
+- A video demo of the project is available on YouTube.
+- Streamlit Documentation: https://docs.streamlit.io/
+- Scikit-learn Documentation: https://scikit-learn.org/
+- Folium Documentation: https://python-visualization.github.io/folium/
+
 
 > “An ounce of prevention is worth a pound of cure — and a gigabyte of data.”
