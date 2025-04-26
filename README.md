@@ -9,7 +9,7 @@ The goal is to enable data-driven decision-making that supports early warning sy
 
 ## Dataset
 
-We used the **FPA-FOD (Fire Program Analysis - Fire Occurrence Dataset)**, which includes:
+I've used the **FPA-FOD (Fire Program Analysis - Fire Occurrence Dataset)**, which includes:
 - 1.88 million geo-referenced wildfire records (1992–2015)
 - Data across all U.S. states and federal lands
 - Detailed attributes such as cause, size, location, and reporting agency
@@ -71,6 +71,30 @@ This project demonstrates how machine learning and historical wildfire data can 
 - **ML Tools**: RandomizedSearchCV, Classification Metrics
 - **App Framework**: Streamlit
 - **Data Source**: [FPA-FOD Dataset (Kaggle)](https://www.kaggle.com/datasets/)
+
+
+## How to Run
+1. Clone the repository:
+
+```
+git clone https://github.com/snehapatil1/wildfire-risk-prediction-ml
+```
+
+2. Install dependencies
+
+```
+pip3 install -r requirements.txt
+```
+3. Run Jupyter Notebook
+
+```
+jupyter notebook wildfire_app.ipynb
+```
+4. Run Streamlit app
+
+```
+streamlit run wildfire_app.py
+```
 
 
 ## References and Citations
