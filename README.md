@@ -73,6 +73,7 @@ This project demonstrates how machine learning and historical wildfire data can 
 
 
 ## Important Links
+- Dataset Citation: Short, Karen C. 2017. Spatial wildfire occurrence data for the United States, 1992-2015 [FPA_FOD_20170508]. 4th Edition. Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2013-0009.4
 - Kaggle Reference: https://www.kaggle.com/datasets/rtatman/188-million-us-wildfires/data
 - A video demo of the project is available on YouTube (https://youtu.be/Bs7Sz5Uom0M?si=R8Gn5Yv3CvQEG2HA).
 - Streamlit Documentation: https://docs.streamlit.io/
