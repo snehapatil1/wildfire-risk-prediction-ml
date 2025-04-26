@@ -72,13 +72,20 @@ This project demonstrates how machine learning and historical wildfire data can 
 - **Data Source**: [FPA-FOD Dataset (Kaggle)](https://www.kaggle.com/datasets/)
 
 
-## Important Links
+## References and Citations
 - Dataset Citation: Short, Karen C. 2017. Spatial wildfire occurrence data for the United States, 1992-2015 [FPA_FOD_20170508]. 4th Edition. Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2013-0009.4
 - Kaggle Reference: https://www.kaggle.com/datasets/rtatman/188-million-us-wildfires/data
-- A video demo of the project is available on YouTube (https://youtu.be/Bs7Sz5Uom0M?si=R8Gn5Yv3CvQEG2HA).
 - Streamlit Documentation: https://docs.streamlit.io/
 - Scikit-learn Documentation: https://scikit-learn.org/
 - Folium Documentation: https://python-visualization.github.io/folium/
+
+
+## Notes
+- ML code is in wildfire_app.ipynb.
+- Streamlit app code is in wildfire_app.py, with configurations in config.py.
+- Model and encoder artifacts are saved as .pkl for deployment.
+- Project report is included in the repository (Report Wildfire Risk Prediction System.pdf).
+- A video demo of the project is available on YouTube (https://youtu.be/Bs7Sz5Uom0M?si=R8Gn5Yv3CvQEG2HA).
 
 
 > “An ounce of prevention is worth a pound of cure — and a gigabyte of data.”
