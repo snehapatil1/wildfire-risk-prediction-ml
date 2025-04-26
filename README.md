@@ -74,7 +74,7 @@ This project demonstrates how machine learning and historical wildfire data can 
 
 ## Important Links
 - Kaggle Reference: https://www.kaggle.com/datasets/rtatman/188-million-us-wildfires/data
-- A video demo of the project is available on YouTube.
+- A video demo of the project is available on YouTube (https://youtu.be/Bs7Sz5Uom0M?si=R8Gn5Yv3CvQEG2HA).
 - Streamlit Documentation: https://docs.streamlit.io/
 - Scikit-learn Documentation: https://scikit-learn.org/
 - Folium Documentation: https://python-visualization.github.io/folium/
