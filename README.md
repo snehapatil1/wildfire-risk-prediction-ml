@@ -15,6 +15,7 @@ We used the **FPA-FOD (Fire Program Analysis - Fire Occurrence Dataset)**, which
 - Detailed attributes such as cause, size, location, and reporting agency
 
 Key table used is **Fires**.
+Since the data is too large to upload, it can be accessed directly on the kaggle link here : https://www.kaggle.com/datasets/rtatman/188-million-us-wildfires/data
 
 
 ## ML Pipeline
