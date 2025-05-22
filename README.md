@@ -74,27 +74,55 @@ This project demonstrates how machine learning and historical wildfire data can 
 
 
 ## How to Run
-1. Clone the repository:
 
-```
+### Option 1: Local Setup
+1. Clone the repository:
+```bash
 git clone https://github.com/snehapatil1/wildfire-risk-prediction-ml
 ```
 
-2. Install dependencies
+2. Create and activate a virtual environment:
+```bash
+python3 -m venv .venv
+source .venv/bin/activate  # On Windows, use: .venv\Scripts\activate
+```
 
+3. Install required packages:
+```bash
+pip install -r requirements.txt
 ```
-pip3 install -r requirements.txt
-```
-3. Run Jupyter Notebook
 
+4. Run Streamlit app locally:
+```bash
+python -m streamlit run app/wildfire_app.py
 ```
+
+5. Run Jupyter Notebook:
+```bash
 jupyter notebook wildfire_app.ipynb
 ```
-4. Run Streamlit app
 
+### Option 2: Using Docker
+1. Clone the repository:
+```bash
+git clone https://github.com/snehapatil1/wildfire-risk-prediction-ml
 ```
-streamlit run wildfire_app.py
+
+2. Build the Docker image:
+```bash
+docker build -t wildfire-prediction-app .
 ```
+
+3. Run the Docker container:
+```bash
+docker run -p 8501:8501 wildfire-prediction-app
+```
+
+4. Access the application:
+   - Open your web browser
+   - Navigate to `http://localhost:8501`
+
+Note: The Docker setup includes all necessary dependencies and certificates, making it the recommended way to run the application.
 
 
 ## References and Citations
@@ -114,3 +142,12 @@ streamlit run wildfire_app.py
 
 
 > “An ounce of prevention is worth a pound of cure — and a gigabyte of data.”
+
+## Final Notes
+
+This project is a work-in-progress and a fun way for me to learn and explore. Feel free to poke around.
+
+Liked what you saw? A ⭐ is the digital high‑five!
+
+Cheers,  
+Sneha

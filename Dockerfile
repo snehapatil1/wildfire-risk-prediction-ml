@@ -1,5 +1,6 @@
-FROM python:3.13
+FROM python:3.11
 RUN /usr/local/bin/python -m pip install --upgrade pip
+RUN /usr/local/bin/python -m pip install --upgrade certifi
 WORKDIR /app
 COPY app/ /app/
 COPY requirements.txt ./requirements.txt

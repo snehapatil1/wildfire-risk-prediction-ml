@@ -18,10 +18,10 @@ def load_artifacts():
             dict: A dictionary containing model, pipeline, scaler, and encoders.
     """
     return {
-        "model": joblib.load('artifacts/wildfire_model.pkl'),
-        "scaler": joblib.load('artifacts/scaler.pkl'),
-        "cause_encoder": joblib.load('artifacts/cause_encoder.pkl'),
-        "state_encoder": joblib.load('artifacts/state_encoder.pkl'),
+        "model": joblib.load('app/artifacts/wildfire_model.pkl'),
+        "scaler": joblib.load('app/artifacts/scaler.pkl'),
+        "cause_encoder": joblib.load('app/artifacts/cause_encoder.pkl'),
+        "state_encoder": joblib.load('app/artifacts/state_encoder.pkl'),
     }
 
 artifacts = load_artifacts()
