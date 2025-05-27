@@ -124,6 +124,7 @@ docker run -p 8501:8501 wildfire-prediction-app
 
 Note: The Docker setup includes all necessary dependencies and certificates, making it the recommended way to run the application.
 
+![Demo](assets/demo.gif)
 
 ## References and Citations
 - Dataset Citation: Short, Karen C. 2017. Spatial wildfire occurrence data for the United States, 1992-2015 [FPA_FOD_20170508]. 4th Edition. Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2013-0009.4
